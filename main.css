@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.bg-base{
+        width:100%;
+        height:900px;
+         background-image:url("http://i.imgur.com/6e05peP.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:fixed;
+    z-index:-1;
+    margin:auto;
+}
+
+body{
+    background:#0d0d0d;
+    color:white;
+    font-family:'Poiret One',cursive;
+    
+   
+  
+}
+ #page{
+       min-width:800px;
+       max-width:900px;
+       margin:auto;
+   
+   
+ } 
+
+ .nav li{
+     color:#fff;
+     display:inline;
+     padding:10px; 
+
+}     
+ 
+
+li a {
+      color:white;
+}
+  a:link {
+    text-decoration: none;
+       
+}
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: #00FF00;
+}
+
+  h1{ 
+    font-size:100px;
+    font-family:Josefin Sans, sans-serif;
+    color:#F0F0F0; 
+}
+
+  .nav{ 
+      border-bottom-style:solid;
+      border-width:1px;
+      border-width:1px;
+      padding:5px; 
+      border-color:#303030;
+      
+}
+
+  #right{ 
+    float:right;
+    width:25%;
+    text-align:center;
+     
+}
+  
+  img{
+    box-shadow:10px 10px;
+    color:#303030;
+    
+ }
+  
+  h2{
+    font-size:40px;
+    color:#303030;
+   
+ }
+
+div.videoplayer {
+      background:#303030;
+      border:10px solid #303030 ;
+      padding:10px;
+      margin:20px;
+      margin-right: 12cm;
+      width:440px;
+      height:360px;
+  }
+
+span{
+     color:#00FF00;
+  
+  
+ }
+
+.box{
+     background:black;
+     padding:20px;
+     width:400px;
+     height: 325px; 
+  
+}
